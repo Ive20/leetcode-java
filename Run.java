@@ -1,4 +1,4 @@
-import three.Solution;
+import s4.Solution;
 
 /**
  * Run
@@ -6,10 +6,9 @@ import three.Solution;
 public class Run {
 
     public static void main(String[] args) {
-        System.out.println("Aaa");
-        String s = "abca";
+        String s = "babadada";
         Solution sol = new Solution();
-        int r = sol.lengthOfLongestSubstring(s);
+        String r = sol.longestPalindrome(s);
         System.out.println(r);
     }
 }

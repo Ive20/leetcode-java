@@ -6,15 +6,9 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Debug (Launch) - Current File",
+            "name": "Debug (Launch) - Run",
             "request": "launch",
             "mainClass": "Run",
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Run",
-            "request": "launch",
-            "mainClass": "Run"
         }
     ]
 }
