@@ -8,7 +8,7 @@
             "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "mainClass": "Run"
+            "mainClass": "Run",
         },
         {
             "type": "java",
