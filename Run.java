@@ -1,4 +1,4 @@
-import s8.Solution;
+import s9.Solution;
 
 /**
  * Run
@@ -6,9 +6,9 @@ import s8.Solution;
 public class Run {
 
     public static void main(String[] args) {
-        String s = "-5-";
+        int s = 121;
         Solution sol = new Solution();
-        int r = sol.myAtoi(s);
+        boolean r = sol.isPalindrome(s);
         System.out.println(r);
     }
 }
