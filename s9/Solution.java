@@ -10,7 +10,7 @@ public class Solution {
             int halfLen = len/2;
             for(int i = 0;i<halfLen;i++){
                 if(temps.charAt(i)!=temps.charAt(len-i-1)){
-                    return false;   
+                     return false;   
                 }
             }
         }
