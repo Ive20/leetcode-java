@@ -1,4 +1,4 @@
-import s6.Solution;
+import s7.Solution;
 
 /**
  * Run
@@ -6,9 +6,9 @@ import s6.Solution;
 public class Run {
 
     public static void main(String[] args) {
-        String s = "A";
+        int s = 1534236469;
         Solution sol = new Solution();
-        String r = sol.convert(s, 1);
+        int r = sol.reverse(s);
         System.out.println(r);
     }
 }
