@@ -1,4 +1,4 @@
-import s4.Solution;
+import s5.Solution;
 
 /**
  * Run
@@ -6,9 +6,9 @@ import s4.Solution;
 public class Run {
 
     public static void main(String[] args) {
-        String s = "babadada";
+        String s = "A";
         Solution sol = new Solution();
-        String r = sol.longestPalindrome(s);
+        String r = sol.convert(s, 1);
         System.out.println(r);
     }
 }
