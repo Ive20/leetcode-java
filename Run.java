@@ -1,4 +1,4 @@
-import s7.Solution;
+import s8.Solution;
 
 /**
  * Run
@@ -6,9 +6,9 @@ import s7.Solution;
 public class Run {
 
     public static void main(String[] args) {
-        int s = 1534236469;
+        String s = "-5-";
         Solution sol = new Solution();
-        int r = sol.reverse(s);
+        int r = sol.myAtoi(s);
         System.out.println(r);
     }
 }
