@@ -1,4 +1,4 @@
-import s5.Solution;
+import s6.Solution;
 
 /**
  * Run
