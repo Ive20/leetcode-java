@@ -1,4 +1,4 @@
-import s11.Solution;
+import s14.Solution;
 
 /**
  * Run
@@ -6,9 +6,9 @@ import s11.Solution;
 public class Run {
 
     public static void main(String[] args) {
-        int[] s = { 1, 8, 6, 2, 5, 4, 8, 3, 7 };
+        String s[] = { "abab", "aba", "" };
         Solution sol = new Solution();
-        int r = sol.maxArea(s);
+        var r = sol.longestCommonPrefix(s);
         System.out.println(r);
     }
 }
